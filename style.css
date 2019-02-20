@@ -1,0 +1,32 @@
+#add-todo-item ,#delete-todo-item ,#select-all-todo-item{
+
+    width: 70px;
+    height: 30px;
+    background-color: antiquewhite;
+    margin: 5px;
+}
+#input-text{
+    width: 450px;
+    height: 45px;
+    background-color: aquamarine;
+    margin-left: 150px;
+}
+.list-item{
+    max-width: 455px;
+    display: flex;
+    background-color: brown;
+    justify-content: flex-start;
+    flex-flow: row ;
+    align-items: center;
+    margin: 5px 2px 0px 100px;
+    margin-left: 150px;
+}
+.list-item > p{
+    white-space: wrap;
+    word-break: break-word;
+    min-width: 400px;;
+}
+.list-item > button{
+    align-self: stretch;
+    width: 50px;
+}
